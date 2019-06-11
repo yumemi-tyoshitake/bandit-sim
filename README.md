@@ -20,6 +20,7 @@ https://qiita.com/tyoshitake/items/2ed890c56945c43774f5
 python simulation.py
 ```
 実行後resultsディレクトリ内に結果をまとめたpickleファイルが作成されます。
+初期の設定では計算に時間がかかる可能性があるので、テスト実行の際はsimulation.py内の最大時間(選択数)t_max、試行回数ave_maxを小さめに設定して実行することをおすすめします。
 
 ### 作図の実行
 ```
